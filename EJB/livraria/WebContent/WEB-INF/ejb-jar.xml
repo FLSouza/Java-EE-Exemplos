@@ -7,7 +7,7 @@
 	 <interceptors>
 	 	<interceptor>
 	 		<interceptor-class>
-				br.com.caelum.livraria.interceptador.LogInterceptador
+				br.com.livraria.interceptador.LogInterceptador
 			</interceptor-class>
 	 	</interceptor>
 	 </interceptors>
@@ -16,13 +16,13 @@
 		<interceptor-binding>
 			<ejb-name>*</ejb-name>
 			<interceptor-class>
-				br.com.caelum.livraria.interceptador.LogInterceptador
+				br.com.livraria.interceptador.LogInterceptador
 			</interceptor-class>
 		</interceptor-binding>
 		<!-- <interceptor-binding>
 			<ejb-name>AutoService</ejb-name>
 			<interceptor-class>
-				br.com.caelum.livraria.interceptador.LogInterceptador
+				br.com.livraria.interceptador.LogInterceptador
 			</interceptor-class>
 		</interceptor-binding> -->
 	</assembly-descriptor>
