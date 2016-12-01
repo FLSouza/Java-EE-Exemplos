@@ -12,7 +12,7 @@ public class TesteEstadosJPA {
 
 		manager.getTransaction().begin();
 
-		// Testes do capitulo
+		
 		Conta conta = manager.find(Conta.class, 5);
 		conta.setTitular("Pedro Ferreira");
 		manager.getTransaction().commit();

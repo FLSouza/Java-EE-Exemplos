@@ -1,6 +1,6 @@
 # JPA - Java Persistence API 
 
-A especificação JPA serve para unir dois mundos, o do paradigma relacional e o orientado a objetos, que são bem diferentes. Os benefícios de se usar JPA é que não é necessário escrever SQL, pois todo
+A especificação JPA serve para unir o paradigma relacional e o orientado a objetos, que são bem diferentes. Os benefícios de se usar JPA é que não é necessário escrever SQL, pois toda a comunicação com o banco é abstraída pela pela especificação.
 
 
 
